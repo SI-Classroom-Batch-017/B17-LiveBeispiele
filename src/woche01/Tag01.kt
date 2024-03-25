@@ -28,5 +28,6 @@ fun main() {
 
     println("Willkommen bei Syntax!")
 
+    println("Aufgabe 1 geloest")
 
 }
