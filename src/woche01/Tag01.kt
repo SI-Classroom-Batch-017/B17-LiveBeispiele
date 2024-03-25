@@ -27,6 +27,7 @@ fun main() {
     // geschweifte Klammer schreiben: option + 8 { }
 
     // LiveBeispiel 1.2 Vorschau: readln()
+    println("Bitte gib ein Wort ein:")
     var input = readln()
     println("Ich habe gerade folgendes in der Konsole eingegeben: input")
     println("Ich habe gerade folgendes in der Konsole eingegeben: $input")
