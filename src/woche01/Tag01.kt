@@ -5,5 +5,6 @@ package woche01
 // Wird aufgerufen, wenn ein Programm gestartet wird
 fun main() {
     // println druckt (= print) eine Zeichenfolge auf der Standardausgabe (Konsole) aus, gefolgt von einem Zeilenumbruch (=ln, line)
+
     println("Hello World!")
 }
