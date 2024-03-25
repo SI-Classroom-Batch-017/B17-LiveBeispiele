@@ -26,5 +26,7 @@ fun main() {
 
     // geschweifte Klammer schreiben: option + 8 { }
 
+    println("Willkommen bei Syntax!")
+
 
 }
