@@ -26,4 +26,8 @@ fun main() {
 
     // geschweifte Klammer schreiben: option + 8 { }
 
+    // Vorschau: readln()
+    var x = readln()
+    println("Ich habe gerade folgendes in der Konsole eingegeben: $x")
+
 }
