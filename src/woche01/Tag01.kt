@@ -28,7 +28,7 @@ fun main() {
 
     // LiveBeispiel 1.2 Vorschau: readln()
     var input = readln()
-    println("Ich habe gerade folgendes in der Konsole eingegeben: neuerName")
+    println("Ich habe gerade folgendes in der Konsole eingegeben: input")
     println("Ich habe gerade folgendes in der Konsole eingegeben: $input")
 
 }
