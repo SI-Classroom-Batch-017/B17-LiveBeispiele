@@ -22,8 +22,7 @@ fun main() {
     // unbekannte Funktion:
     //prnnnnln("Hallo")
     // unbekannte Syntax:
-    //bla bla hallo wie geht's
-
+    //bla bla hallo wie ge
     // geschweifte Klammer schreiben: option + 8 { }
 
     // LiveBeispiel 1.2 Vorschau: readln()
@@ -31,5 +30,4 @@ fun main() {
     var input = readln()
     println("Ich habe gerade folgendes in der Konsole eingegeben: input")
     println("Ich habe gerade folgendes in der Konsole eingegeben: $input")
-
 }
