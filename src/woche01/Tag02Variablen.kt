@@ -1,71 +1,71 @@
 package woche01
 
 fun main() {
-//    // Variable anlegen (initialisieren: neu erstellen und mit Wert befuellen)
-//    // Syntax: Schluesselwort var - variablenName - : Datentyp - = - inhalt
-//    var firstName: String = "Harry"
-//    var lastName: String = "Potter"
-//    // kein $ (Interpolation): Variable wird nicht als solche erkannt
-//    println("In der Variable firstName steht: firstName")
-//    println("In der Variable firstName steht: $firstName, in lastName steht: $lastName")
-//
-//    // Variable aktualisieren: Sybtax name - = - neuer Inhalt
-//    firstName = "Ron"
-//    println("In der Variable firstName steht jetzt: $firstName")
-//
-//    println("Bitte gib deinen Vornamen ein...")
-//    firstName = readln()
-//    println("In der Variable firstName steht jetzt: $firstName")
-//
-//    lastName = "Granger"
-//    println("In der Variable firstName steht: $firstName, in lastName steht: $lastName")
-//
-//    // eine Variable in eine andere Variable reinschreiben
-//    // firstName = lastName
-//
-//    // Variablen können sich aus anderen Variablen zusammensetzen:
-//    var fullName: String = firstName + " " + lastName // zB Hermine Granger
-//
-//    println("Bitte gib einen Vornamen ein!")
-//    var combinedVariable: String = readln() + " " + lastName
-//    println("In combinedVariable steht: $combinedVariable") // zB Simone Granger
-//
-//    println("Die Variable fullName beinhaltet: $fullName")
-//    println(fullName)
-//
-//    // CamelCase: jedes Einzelwort gross schreiben fuer die Leserlichkeit
-//    val langerVariablenName = 0
-//    val langervariablenname = 1
-//
-//
-//
-//    // Konstante: statt var val, darf danach nicht mehr verändert werden
-//    val birthDate: String = "01.01.2001"
-//    // birthDate: String = "01.01.2010" // nicht erlaubt, darf nicht aktualisiert werden
-//    val birthPlace: String = "London"
-//    // birthPlace: String = "Berlin"
-//
-//
-//    // Variable deklarieren: ohne Inhalt anlegen
-//    var favoriteFood: String = "Pizza*&@#%%@@^%^   $firstName blabla +-+"
-//    var favoriteDrink: String // ich darf leere Variablen anlegen, NUR solange ich ihren Datentypen dazu schreibe
-//
-//    // 100 Zeilen Code spaeter....
-//
-//    favoriteDrink = "Tee"
-//
-//
-//    var beispielString: String = "Hi, hier kommt ein Zeilenumbruch:\nMia sagt: \"Ich liebe programmieren!\" "
-//    println(beispielString)
-//
-//    var beispielStringBlock: String = """
-//
-//         hi
-//        es gab einen zeilenumbruch
-//        dieser string ist ein grosser text block...
-//
-//    """.trimIndent()
-//    println(beispielStringBlock)
+    // Variable anlegen (initialisieren: neu erstellen und mit Wert befuellen)
+    // Syntax: Schluesselwort var - variablenName - : Datentyp - = - inhalt
+    var firstName: String = "Harry"
+    var lastName: String = "Potter"
+    // kein $ (Interpolation): Variable wird nicht als solche erkannt
+    println("In der Variable firstName steht: firstName")
+    println("In der Variable firstName steht: $firstName, in lastName steht: $lastName")
+
+    // Variable aktualisieren: Sybtax name - = - neuer Inhalt
+    firstName = "Ron"
+    println("In der Variable firstName steht jetzt: $firstName")
+
+    println("Bitte gib deinen Vornamen ein...")
+    firstName = readln()
+    println("In der Variable firstName steht jetzt: $firstName")
+
+    lastName = "Granger"
+    println("In der Variable firstName steht: $firstName, in lastName steht: $lastName")
+
+    // eine Variable in eine andere Variable reinschreiben
+    // firstName = lastName
+
+    // Variablen können sich aus anderen Variablen zusammensetzen:
+    var fullName: String = firstName + " " + lastName // zB Hermine Granger
+
+    println("Bitte gib einen Vornamen ein!")
+    var combinedVariable: String = readln() + " " + lastName
+    println("In combinedVariable steht: $combinedVariable") // zB Simone Granger
+
+    println("Die Variable fullName beinhaltet: $fullName")
+    println(fullName)
+
+    // CamelCase: jedes Einzelwort gross schreiben fuer die Leserlichkeit
+    val langerVariablenName = 0
+    val langervariablenname = 1
+
+
+
+    // Konstante: statt var val, darf danach nicht mehr verändert werden
+    val birthDate: String = "01.01.2001"
+    // birthDate: String = "01.01.2010" // nicht erlaubt, darf nicht aktualisiert werden
+    val birthPlace: String = "London"
+    // birthPlace: String = "Berlin"
+
+
+    // Variable deklarieren: ohne Inhalt anlegen
+    var favoriteFood: String = "Pizza*&@#%%@@^%^   $firstName blabla +-+"
+    var favoriteDrink: String // ich darf leere Variablen anlegen, NUR solange ich ihren Datentypen dazu schreibe
+
+    // 100 Zeilen Code spaeter....
+
+    favoriteDrink = "Tee"
+
+
+    var beispielString: String = "Hi, hier kommt ein Zeilenumbruch:\nMia sagt: \"Ich liebe programmieren!\" "
+    println(beispielString)
+
+    var beispielStringBlock: String = """
+
+         hi
+        es gab einen zeilenumbruch
+        dieser string ist ein grosser text block...
+
+    """.trimIndent()
+    println(beispielStringBlock)
 
 
 
