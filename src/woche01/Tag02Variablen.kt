@@ -112,17 +112,4 @@ fun main() {
     isUserLoggedIn = true
     println("Es ist jetzt $isUserLoggedIn, dass der User eingeloggt ist.")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
