@@ -34,11 +34,12 @@ fun main() {
 
     // contains: gibt an, ob ein String einen anderen String enthält
     var containsHarry: Boolean = stringInterpoliert.contains("Harry")
-    println("Ist 'Harry' enthalten in stringInterpoliert? -> $containsHarry")
+    println("Ist 'Harry' enthalten in stringInterpoliert ($stringInterpoliert)? -> $containsHarry")
 
     var sentence: String = "Harry und Ron gehen in den verbotenen Wald"
     var ron: String = "Ron"
-    var containsRon: Boolean = sentence.contains(ron)
+    // ignoreCase: wenn auf true gesetzt wird die Gross- und Kleinschreibung ignoriert. ist, sofern nichts angegeben wird, automatisch auf false gesetzt
+    var containsRon: Boolean = sentence.contains(ron,true)
     println("Ist $ron in sentence ($sentence) enthalten? -> $containsRon")
     var ronLength = ron.length
 
