@@ -19,7 +19,14 @@ fun main() {
     println("Double $doubleNr zum Integer machen ergibt $doubleToInt")
 
     // toString()
-    //TODO auch toBoolean
+    val doubleNumber: Double = 100.7
+    // doubleNumber = doubleNumber + " ist eine Zahl." // geht nicht, da wir in ein Double keinen String, der jetzt rauskommen würde, speichern dürfen
+    println(doubleNumber+0.3) // Ergebnis: 101.0
+
+    var doubleToString: String = doubleNumber.toString()
+    doubleToString = doubleToString + " ist eine Zahl."
+
+    //toBoolean
 
 
     // Konvertierung in 2 Schritten (lange Version)
@@ -31,5 +38,10 @@ fun main() {
 
     println(x)
     println(x + 10)
+
+    var string : String = "Hier im String findet Rechenlogik statt: 3+4= ${3+4}"
+    println("Hier im String findet Rechenlogik statt: 3+4= ${3+4}")
+
+    var rechnung: Int = (4+4) + (3+5)
 
 }
