@@ -13,6 +13,9 @@ fun main() {
     // kuerzen mit Hilfe von String.format: 2f steht für 2 Nachkommastellen, der Rest wird abgeschnitten
     var roundedString: String = "%.2f".format(double)
 
+
+
+
     println(roundedString)
 
     // Vorsicht! Das ist kein Double mehr, also nicht mehr rechenbar, und das Komma ist von einem . zu einem , geworden:

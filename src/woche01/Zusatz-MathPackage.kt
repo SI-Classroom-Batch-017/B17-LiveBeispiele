@@ -3,7 +3,7 @@ package woche01
 
 
 
-// importiert uns die Funktion sqrt aus dem Kotlin.Math package, in dem mathematische Funktionen drin sind.
+// importiert uns die Funktion sqrt aus dem Kotlin.Math package, in dem mathematische Funktionen drin sind:
 import kotlin.math.sqrt
 import kotlin.math.* // * = alle funktionen werden importiert
 
@@ -34,4 +34,7 @@ fun main() {
     // Modulo: der Rest, der übrig bleibt, wenn man 2 zahlen teilt. zB:
     var mod: Double = 10.0%9.0 // Rest: 1.0
     var mod2: Int = 5%3 // Rest: 2
+
+    var xu: String? = readLine()
+    println(xu)
 }
