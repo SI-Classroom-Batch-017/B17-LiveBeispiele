@@ -6,7 +6,7 @@ fun main() {
     println("Bitte gib ein, welches Produkt du kaufen willst.... Zahl ")
     println("""
         [1] -> Cola
-        [2] -> Gummibarchen
+        [2] -> Gummibaerchen
         [3] -> Kekse
     """.trimIndent())
 
