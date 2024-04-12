@@ -39,6 +39,7 @@ fun main() {
         }
         else -> {
             println("Keine gültige Operation angegeben, starte das Programm erneut.")
+            // bei Versagen, Operator einzugeben, wird nicht gerechnet, sondern als Standard 0.0 zurueck gegeben
             0.0
         }
     }
