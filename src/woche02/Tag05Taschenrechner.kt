@@ -15,23 +15,36 @@ fun main() {
 
     // je nachdem, Welche Operation gewählt wurde, das Ergebnis berechnen
 
-    when(operator){
+    val result: Double = when(operator){
         "*" -> {
-            println("$nr1 * $nr2 = ${nr1 * nr2}")
+            println("$nr1 * $nr2 =")
+            nr1 * nr2
         }
         "/" -> {
-            println("$nr1 / $nr2 = ${nr1 / nr2}")
+
+            println("$nr1 / $nr2 =")
+            nr1 / nr2
         }
         "+" -> {
-            println("$nr1 + $nr2 = ${nr1 + nr2}")
+            println("$nr1 + $nr2 =")
+            nr1 + nr2
         }
         "-" -> {
-            println("$nr1 - $nr2 = ${nr1 - nr2}")
+            println("$nr1 - $nr2 =")
+            nr1 - nr2
         }
         "%" -> {
-            println("$nr1 % $nr2 = ${nr1 % nr2}")
+            println("$nr1 % $nr2 =")
+            nr1 % nr2
+        }
+        else -> {
+            println("Keine gültige Operation angegeben, starte das Programm erneut.")
+            0.0
         }
     }
+
+    println("$result")
+
 
 }
 
