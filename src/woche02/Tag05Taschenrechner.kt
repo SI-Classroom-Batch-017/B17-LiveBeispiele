@@ -15,7 +15,7 @@ fun main() {
 
     // je nachdem, Welche Operation gewählt wurde, das Ergebnis berechnen
 
-    val result: Double = when(operator){
+    val result: Double? = when(operator){
         "*" -> {
             println("$nr1 * $nr2 =")
             nr1 * nr2
@@ -39,8 +39,8 @@ fun main() {
         }
         else -> {
             println("Keine gültige Operation angegeben, starte das Programm erneut.")
-            // bei Versagen, Operator einzugeben, wird nicht gerechnet, sondern als Standard 0.0 zurueck gegeben
-            0.0
+            // bei Versagen, Operator einzugeben, wird nicht gerechnet, sondern als Standard null zurueck gegeben
+            null
         }
     }
 
