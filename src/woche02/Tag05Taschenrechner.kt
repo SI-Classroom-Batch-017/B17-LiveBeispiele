@@ -7,12 +7,12 @@ fun main() {
     try{
         println("Bitte gib die 1. Zahl ein...")
         var nr1: Double = readln().toDouble()
+        println("Welche Operation willst du machen? (*,/,+,-,%)")
+        var operator: String = readln()
         println("Bitte gib eine 2. Zahl ein...")
         var nr2: Double = readln().toDouble()
 
-        println("Welche Operation willst du machen? (*,/,+,-,%)")
 
-        var operator: String = readln()
 
         // je nachdem, Welche Operation gewählt wurde, das Ergebnis berechnen
 
@@ -44,10 +44,18 @@ fun main() {
             }
         }
 
+        if (result == Double.POSITIVE_INFINITY){
+            throw Exception("Durch 0 teilen ergibt Infinity, starte neu...")
+        }
+
         println("$result")
 
+    } catch (e: NumberFormatException){
+        println("Fehler bei der Zahleneingabe! $e")
+    } catch (e: ArithmeticException){
+        println("Fehler! Man darf nicht durch 0 teilen! $e")
     } catch (e: Exception){
-        println("Fehler! $e")
+        println("Weder NFE, AE: $e")
     }
 
 
