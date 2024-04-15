@@ -30,4 +30,5 @@ fun main() {
     var input: String = readln()
     println("Ich habe gerade folgendes in der Konsole eingegeben: input")
     println("Ich habe gerade folgendes in der Konsole eingegeben: $input")
+
 }
