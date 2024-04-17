@@ -16,6 +16,8 @@ fun main() {
     var isSunny: Boolean = sunnyOrNot()
     println("Die Sonne scheint ${if (!isSunny) "nicht" else ""}")
 
+    var result = multWithReturn()
+
 }
 
 fun sunnyOrNot(): Boolean {
