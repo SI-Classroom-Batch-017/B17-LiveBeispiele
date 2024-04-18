@@ -1,4 +1,4 @@
-package woche03.Tag04Parameter
+package woche03.Tag03Parameter
 
 fun preisRechner(produktName: String, anzahlProdukte: Int, produktPreis: Double, rabatt: Double = 0.0): Double {
 

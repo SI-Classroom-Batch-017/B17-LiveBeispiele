@@ -1,4 +1,4 @@
-package woche03.Tag04Parameter
+package woche03.Tag03Parameter
 
 fun makePancakes(eier: Int, mehlInGramm: String, milchInMl: Int, wasserInMl: Int, x: Double, y: Boolean) {
     println("Schritte:")

@@ -1,4 +1,4 @@
-package woche03.Tag04Parameter
+package woche03.Tag03Parameter
 
 fun calculateAge(): Int {
     println("Geburtstagsrechner")

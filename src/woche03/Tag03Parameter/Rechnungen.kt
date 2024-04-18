@@ -1,4 +1,4 @@
-package woche03.Tag04Parameter
+package woche03.Tag03Parameter
 
 
 fun multWithReturn2(nr1: Int, nr2: Int) : Int {

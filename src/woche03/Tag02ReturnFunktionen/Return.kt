@@ -18,6 +18,9 @@ fun main() {
 
     var result = multWithReturn()
 
+    var satzMitName = getFullNameShort()
+    println(satzMitName)
+
 }
 
 fun sunnyOrNot(): Boolean {

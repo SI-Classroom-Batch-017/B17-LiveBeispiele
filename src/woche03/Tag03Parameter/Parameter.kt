@@ -1,4 +1,4 @@
-package woche03.Tag04Parameter
+package woche03.Tag03Parameter
 
 fun main() {
     // greeting direkt mit String aufrufen
