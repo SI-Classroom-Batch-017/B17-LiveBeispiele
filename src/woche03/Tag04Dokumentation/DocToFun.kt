@@ -35,7 +35,9 @@ fun compareStrings(str1: String, str2: String): Boolean {
  * @param subString Der zu suchende Substring.
  * @return True, wenn der Substring gefunden wurde, ansonsten False.
  */
-
+fun subStringExists(inputString: String,subString: String): Boolean {
+    return inputString.contains(subString)
+}
 
 /**
  * Extrahiert einen Teil eines Strings, beginnend an einer bestimmten Position bis zu einer anderen Position.
@@ -46,15 +48,25 @@ fun compareStrings(str1: String, str2: String): Boolean {
  * @return Der extrahierte Substring.
  */
 
+fun extractSubString(inputString: String,startIndex: Int, endIndex: Int): String {
+    return inputString.substring(startIndex,endIndex)
+}
+
 /**
- * Teilt einen String anhand eines bestimmten Trennzeichens in Teile auf und gibt diese Teile in einem Array zurück.
+ * Teilt einen String anhand eines bestimmten Trennzeichens in Teile auf und gibt diese Teile in einer Liste zurück.
  *
  * @param inputString Der zu teilende String.
  * @param delimiter Das Trennzeichnen, das zum Aufteilen des Strings verwendet wird.
  * @return Ein Array, das die aufgeteilten Teile des Strings enthält.
  * @throws IllegalArgumentException Wenn der Eingabestring leer ist oder das Trennzeichnen leer ist.
  */
-
+fun splitString(inputString: String,delimiter: String): List<String> {
+    if (inputString != "" && delimiter.isNotEmpty()){
+        return inputString.split(delimiter)
+    } else {
+        throw IllegalArgumentException()
+    }
+}
 
 /**
  * Wandelt einen gegebenen String in Großbuchstaben um.
@@ -62,6 +74,24 @@ fun compareStrings(str1: String, str2: String): Boolean {
  * @param inputString Der zu konvertierende String.
  * @return Der String in Großbuchstaben.
  */
+
+fun convertStringToUppercase(inputString: String): String {
+    return inputString.uppercase()
+}
+
+/**
+ * Druckt einen String in Grossbuchstaben aus.
+ *
+ * @param inputString Der zu konvertierende String.
+ *
+ */
+fun printStringToUppercase(inputString: String) {
+    println(inputString.uppercase())
+}
+
+fun main() {
+
+}
 
 
 
