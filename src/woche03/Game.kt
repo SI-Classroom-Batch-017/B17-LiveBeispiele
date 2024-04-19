@@ -30,6 +30,16 @@ fun main() {
     //
     // -------------------------------------------------------------
 
+    spielStart()
+
+    runde()
+    runde()
+    runde()
+
+    println("Spiel zu Ende")
+}
+
+fun spielStart() {
     // Wenn das Spiel startet, muss der Nutzer einen Namen für Spieler 1 und Spieler 2 eingeben
     println("Spieler 1, bitte gib deinen Namen ein...")
     spieler1Name = readln()
@@ -48,12 +58,6 @@ fun main() {
     println("Es findet ein Duell zwischen $spieler1Name und $spieler2Name statt.")
     println()
     println("Möge der Bessere gewinnen!")
-
-    runde()
-    runde()
-    runde()
-
-    println("Spiel zu Ende")
 }
 
 fun runde() {
