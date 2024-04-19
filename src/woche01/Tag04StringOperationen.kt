@@ -27,13 +27,14 @@ fun main() {
     // ist meine stringLength kleiner als die gewollteLaenge? --> das lernen wir nächste Woche, wird mit if else gemacht
 
     // equals: gibt an, ob ein String und ein weiterer String den gleichen Inhalt haben.
-    var vergleich: Boolean = stringLength.equals(harry)
+    var vergleich: Boolean = "Harry".equals(harry)
     println("Sind Harry und stringInterpoliert gleich? -> $vergleich")
     var vergleichHarry: Boolean = harry.equals("Harry")
     println("Sind Harry und $harry gleich? -> $vergleichHarry")
+    var compare: Boolean = "Dieser String ist King".equals("dieser string ist king",true)
 
     // contains: gibt an, ob ein String einen anderen String enthält
-    var containsHarry: Boolean = stringInterpoliert.contains("Harry")
+    var containsHarry: Boolean = "Harry und Ron gehen in den verbotenen Wald".contains("Harry") // true
     println("Ist 'Harry' enthalten in stringInterpoliert ($stringInterpoliert)? -> $containsHarry")
 
     var sentence: String = "Harry und Ron gehen in den verbotenen Wald"
