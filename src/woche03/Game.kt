@@ -79,7 +79,6 @@ fun runde() {
     specialAttackPhase()
 }
 
-
 fun specialAttackPhase() {
     spieler2Leben -= specialAttack(spieler1Name, spieler2Name)
     printLifePoints()
@@ -159,7 +158,6 @@ fun attackPhase() {
     printLifePoints()
 }
 
-
 fun healPhase() {
     printHeal()
 
@@ -169,9 +167,6 @@ fun healPhase() {
     println()
     printLifePoints()
 }
-
-
-
 
 fun printHeal() {
     println(
@@ -190,10 +185,6 @@ fun healPlayer(zuHeilenderPlayer: String): Int {
     println("$zuHeilenderPlayer heilt sich um $heilen Lebenspunkte.")
     return heilen
 }
-
-
-
-
 
 fun attack(angreifer: String, opfer: String): Int {
     printAttack()
@@ -221,7 +212,6 @@ fun printAttack() {
                 "\n"
     )
 }
-
 
 fun printLifePoints() {
     println("$spieler1Name hat noch $spieler1Leben Lebenspunkte.")
