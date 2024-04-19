@@ -87,7 +87,7 @@ fun checkStringLength(inputString: String): String {
  * @return Der Durchschnitt der Zahlen.
  * @throws IllegalArgumentException Wenn eine der Zahlen negativ ist.
  */
-fun calculateAverage(num1: Int, num2: Int, num3: Int): Double {
+fun calcAverage(num1: Int, num2: Int, num3: Int): Double {
     if (num1 < 0 || num2 < 0 || num3 < 0) {
         throw IllegalArgumentException("Negative Zahlen sind nicht erlaubt.")
     }
