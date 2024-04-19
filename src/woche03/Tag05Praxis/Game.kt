@@ -1,4 +1,4 @@
-package woche03
+package woche03.Tag05Praxis
 
 var spieler1Name = ""
 var spieler2Name = ""
