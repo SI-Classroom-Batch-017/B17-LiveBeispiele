@@ -1,4 +1,4 @@
-package woche02
+package woche02.Tag02Bedingungen
 
 // Programm schreiben, das den Nutzer nach 2 Zahlen fragt, danach, welche Operation er ausführen will (*,/,+,-,%), dann Ergebnis ausdruckt
 
