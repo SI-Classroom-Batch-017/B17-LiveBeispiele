@@ -106,6 +106,9 @@ fun main() {
     val sortededShopList: List<String> = shoppingList.sorted()
     println(sortededShopList)
 
+
+//    println(sortededShopList)
+
     println()
     // indexOf: gibt den ersten Index, an dem das Element vorkommt, zurück
     val firstIndexOfMilk: Int = mutableShoppingList.indexOf("Milch") // 6
