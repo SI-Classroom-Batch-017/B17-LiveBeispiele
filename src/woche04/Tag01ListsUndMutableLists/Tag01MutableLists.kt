@@ -1,4 +1,4 @@
-package woche04
+package woche04.Tag01ListsUndMutableLists
 
 fun main() {
     val mutableMovies: MutableList<String> = mutableListOf("Barbie", "Harry Potter", "Oppenheimer", "Dune")

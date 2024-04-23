@@ -1,4 +1,4 @@
-package woche04
+package woche04.Tag01ListsUndMutableLists
 
 fun main() {
     // einfache variable anlegen
@@ -37,7 +37,8 @@ fun main() {
     val index: Int = 2
     println(stringListe[index]) // 3. Element Moin
     println(stringListe[readln().toInt()])
-    println(stringListe[getRandomInt()])
+    var randomInt: Int = getRandomInt()
+    println(stringListe[10])
     // letztes Element aus Liste holen, dynamisch programmiert:
     val last: String = stringListe[stringListe.size-1] // oder: einfach .last()
     println(last) // "Hallo"
