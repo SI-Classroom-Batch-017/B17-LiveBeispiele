@@ -1,4 +1,4 @@
-package vorlesungen.woche02
+package woche04.Tag03MapsUndNull
 
 import java.util.SortedMap
 
@@ -89,6 +89,7 @@ fun main() {
         "Lizzo" to mutableListOf("Juice","Truth Hurts", "Rumors"),
         "Taylor Swift" to taylorSongList
     )
+
 
     println(music)
 

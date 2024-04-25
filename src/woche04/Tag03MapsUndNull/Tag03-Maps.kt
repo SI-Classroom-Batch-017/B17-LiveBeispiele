@@ -69,7 +69,7 @@ fun main(){
     println(allKeys)
 
     // .values  gibt alle values als Kollektion zurück
-    val allValues: Collection<Double> = ARTICLES.values
+    val allValues: MutableList<Double> = ARTICLES.values.toMutableList()
     println(allValues)
 
 
