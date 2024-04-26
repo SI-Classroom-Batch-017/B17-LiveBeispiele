@@ -1,5 +1,7 @@
+package woche04.Tag05Wiederholung.musterloesungen
+
 /*
-In der Variable cards ist ein Kartenset in Form einer Liste gespeichert.
+In der Variable getCards ist ein Kartenset in Form einer Liste gespeichert.
 Beispiel:
     "♥️7" steht für die Karte "Herz Sieben"
     "♥️A" steht für die Karte "Herz Ass"
@@ -134,7 +136,7 @@ fun drawPlayerHands(
 }
 
 /**
- * Gibt uns ein Pair zurueck, deshalb auskommentiert und durch  drawPlayerHands ersetzt
+ * Gibt uns ein Pair zurueck, deshalb auskommentiert und durch  woche04.Tag05Wiederholung.musterloesungen.drawPlayerHands ersetzt
  */
 fun returnPlayerHands(
     player1Name: String,
