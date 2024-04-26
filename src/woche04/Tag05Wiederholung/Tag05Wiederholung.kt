@@ -1,4 +1,4 @@
-package woche04
+package woche04.Tag05Wiederholung
 
 // Globale Variable
 val gradeMap = mapOf(
