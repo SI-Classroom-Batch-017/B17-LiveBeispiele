@@ -6,6 +6,22 @@ fun main() {
     // positive Zahl eingeben und prüfen, ob sie positiv ist. wenn nicht nochmal eingeben
     // --> hiermit können wir ab jetzt dafür sorgen, dass das Programm bei falschen Eingaben neu startet
     // do While: Zahlen Eingabe
+    doWhilePositiveNumber()
+
+
+    // Elemente aus der Liste entfernen, bis nur noch 1 Element übrig ist
+    val movies = mutableListOf("Inception", "Tenet", "Dunkirk", "Memento", "The Dark Knight")
+    // do While: letztes Element so lange entfernen, bis nur noch Inception (= 1 Element in der Liste) übrig ist
+    doWhileMovies(movies)
+
+
+    // password und prüfen, ob es stimmt. wenn nicht, nochmal eingeben
+    doWhilePassword()
+
+
+}
+
+fun doWhilePositiveNumber() {
     var number: Int
     do {
         println("Bitte gib eine positive Zahl über 0 ein.....")
@@ -13,18 +29,27 @@ fun main() {
     } while (number <= 0)
 
     println("Super, du hast mit $number eine Zahl > 0 eingegeben!")
+}
 
+fun doWhilePassword() {
+    var input: String
+    // do körper wird mind. 1x ausgeführt
+    do {
+        println("Namen eingeben....")
+        input = readln()
+    } while (input.isEmpty())
 
+    println("Hallo, $input")
+}
 
-    // Elemente aus der Liste entfernen, bis nur noch 1 Element übrig ist
-    val movies = mutableListOf("Inception", "Tenet", "Dunkirk", "Memento", "The Dark Knight")
-    // do While: letztes Element so lange entfernen, bis nur noch Inception (= 1 Element in der Liste) übrig ist
-
-
-
-
-
-    // password und prüfen, ob es stimmt. wenn nicht, nochmal eingeben
-
-
+fun doWhileMovies(movies: MutableList<String>) {
+    var i = movies.size - 1 // fangen beim letzten element an
+    do {
+        println("Zu entfernendes Element: ${movies[i]}")
+        // das element entfernen
+        movies.removeAt(i)
+        println("Länge der Liste nach dem Entfernen: ${movies.size}")
+        println("Übrige Elemente: $movies")
+        i--
+    } while (i > 0)
 }

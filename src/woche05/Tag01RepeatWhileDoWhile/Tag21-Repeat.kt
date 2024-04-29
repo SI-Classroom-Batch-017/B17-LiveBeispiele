@@ -40,6 +40,9 @@ fun main() {
 
 
     // repeat mit Funktionsaufruf, wo ein Int rauskommt (.toInt(), randomInt())
+    repeat(randomInt()){ // 20
+        println("${it+1}. Durchlauf")
+    }
 
 
 
@@ -49,6 +52,19 @@ fun main() {
     // it = von Kotlin bereitgestellte implizierte Indexvariable,
     // enthält automatisch erst den Index 0, zählt dann automatisch hoch
 
+    repeat(weekDays.size){
+        println("${it+1}. " + weekDays[it])
+    }
+
+    println("Liste erfolgreich durchlaufen, Repeat-Schleife beendet...")
+
+    // repeat über weitere Liste mit it.
+    // it = von Kotlin bereitgestellte implizierte Indexvariable,
+    // enthält automatisch erst den Index 0, zählt dann automatisch hoch
+    var herbstKleidung = mutableListOf("Wollsocken", "Winterschuhe", "gefütterte Jeans", "Daunenjacke", "Schal", "Handschuhe")
+    repeat(herbstKleidung.size){ // in herbstKleidung.size steht 6 drin
+        println("$it. Element in der Liste: ${herbstKleidung[it]}")
+    }
 
     println("Liste erfolgreich durchlaufen, Schleife beendet...")
 

@@ -29,10 +29,6 @@ fun main() {
     findFruit(fruits, "Apples")
     findFruit(fruits, "Orange")
 
-
-
-
-
 }
 
 fun findFruit(fruits: MutableList<String>, searchedFruit: String) {
