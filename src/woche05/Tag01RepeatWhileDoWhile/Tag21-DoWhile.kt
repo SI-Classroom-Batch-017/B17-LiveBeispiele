@@ -6,17 +6,17 @@ fun main() {
     // positive Zahl eingeben und prüfen, ob sie positiv ist. wenn nicht nochmal eingeben
     // --> hiermit können wir ab jetzt dafür sorgen, dass das Programm bei falschen Eingaben neu startet
     // do While: Zahlen Eingabe
-    doWhilePositiveNumber()
+    //doWhilePositiveNumber()
 
 
     // Elemente aus der Liste entfernen, bis nur noch 1 Element übrig ist
     val movies = mutableListOf("Inception", "Tenet", "Dunkirk", "Memento", "The Dark Knight")
     // do While: letztes Element so lange entfernen, bis nur noch Inception (= 1 Element in der Liste) übrig ist
-    doWhileMovies(movies)
+    //doWhileMovies(movies)
 
 
-    // password und prüfen, ob es stimmt. wenn nicht, nochmal eingeben
-    doWhilePassword()
+    // Name und prüfen, ob er nicht leer ist. wenn doch, nochmal laufen
+    doWhileName()
 
 
 }
@@ -31,11 +31,11 @@ fun doWhilePositiveNumber() {
     println("Super, du hast mit $number eine Zahl > 0 eingegeben!")
 }
 
-fun doWhilePassword() {
+fun doWhileName() {
     var input: String
     // do körper wird mind. 1x ausgeführt
     do {
-        println("Namen eingeben....")
+        println("Name eingeben....")
         input = readln()
     } while (input.isEmpty())
 

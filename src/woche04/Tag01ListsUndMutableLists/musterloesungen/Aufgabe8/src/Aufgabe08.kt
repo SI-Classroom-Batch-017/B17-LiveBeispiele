@@ -1,5 +1,3 @@
-import kotlin.system.exitProcess
-
 fun main() {
     var fahrzeuge = mutableListOf("Auto", "Motorrad", "Fahrrad", "Bus", "LKW")
 

@@ -29,6 +29,15 @@ fun main() {
     findFruit(fruits, "Apples")
     findFruit(fruits, "Orange")
 
+    val fruits2 = mutableListOf("Apples", "Oranges", "Cherries", "Watermelon", "Mango", "Strawberries")
+    var j: Int = 0
+    while(j < fruits.size) {
+        println(fruits[j])
+        j++
+    }
+
+
+
 }
 
 fun findFruit(fruits: MutableList<String>, searchedFruit: String) {
