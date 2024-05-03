@@ -94,6 +94,8 @@ fun main() {
         }
     }
 
+    var x = mutableMapOf(1 to 2, 3 to 4)
+
     println("---")
     // maxBy: sucht größten Hund nach Länge raus
     val longestDog: String = dogs.maxBy { it.length }
