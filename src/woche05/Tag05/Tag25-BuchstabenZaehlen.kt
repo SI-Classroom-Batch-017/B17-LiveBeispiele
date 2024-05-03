@@ -30,7 +30,6 @@ fun main() {
 
 
 
-
     // TODO vorkommen aller buchstaben zählen
 
     // TODO Anzahl aller Buchstaben ohne Leerzeichen, ohne Sonderzeichen
