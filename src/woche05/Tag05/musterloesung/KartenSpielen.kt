@@ -1,3 +1,5 @@
+package woche05.Tag05.musterloesung
+
 val kartendeck: List<String> = listOf(
     "Pik Ass", "Pik Koenig", "Pik Dame", "Pik Bube", "Pik 10"
 )

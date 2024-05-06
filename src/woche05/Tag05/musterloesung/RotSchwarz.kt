@@ -1,6 +1,8 @@
+package woche05.Tag05.musterloesung
+
 //Der erste Teil besteht darin, ein kleines Spiel schreiben, in dem der Spieler die Farbe der nächsten Karte erraten soll.
 //
-//Erstelle dafür eine neue Kotlin Datei mit dem Namen RotSchwarz.kt. Erstelle in dieser Datei eine main-Funktion, in der das Kartendeck erstellt und gemischt wird.
+//Erstelle dafür eine neue Kotlin Datei mit dem Namen RotSchwarz.kt. Erstelle in dieser Datei eine woche05.Tag05.musterloesung.woche05.Tag05.musterloesung.woche05.Tag05.musterloesung.main-Funktion, in der das Kartendeck erstellt und gemischt wird.
 
 
 fun main() {

@@ -1,3 +1,5 @@
+package woche05.Tag05.musterloesung
+
 fun main() {
     // in der das Kartendeck erstellt
     var deck: MutableList<String> = kartendeck.toMutableList()
