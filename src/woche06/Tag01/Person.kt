@@ -1,4 +1,4 @@
-package woche06
+package woche06.Tag01
 
 
 // Klasse definieren: Bauplan/Blaupause
@@ -31,12 +31,12 @@ class Person(val firstName: String, var lastName: String, var age: Int, var favP
 
 fun main() {
     var number: Int = 10
-    var ingredientsList: List<Ingredient> = listOf(Ingredient("Tomate", 0.5),Ingredient("Zwiebel",0.6))
+    var ingredientsList: List<Ingredient> = listOf(Ingredient("Tomate", 0.5), Ingredient("Zwiebel",0.6))
     var pizza1: Pizza = Pizza("Monzarella",30,5.99, ingredientsList)
     pizza1.printAllIngredients()
     // erste Instanz der Klasse Person erstellt: in der Variable person1 gespeichert
     var person1: Person = Person("Harry", "Potter", 11,pizza1,"green")
-    var person2: Person = Person("Ron", "Weasley", 11,Pizza("Salami",35,7.99,ingredientsList))
+    var person2: Person = Person("Ron", "Weasley", 11, Pizza("Salami",35,7.99,ingredientsList))
     println("Bitte gib Vorname, Nachname, Alter ein:")
     //var person3: Person = Person(readln(), readln(), readln().toInt())
 
@@ -68,7 +68,7 @@ fun main() {
     person1.wedding(person2)
 
 
-    var personList: List<Person> = listOf(person1,person2,Person("Simon","Meyer",22,pizza1))
+    var personList: List<Person> = listOf(person1,person2, Person("Simon","Meyer",22,pizza1))
 
 
 

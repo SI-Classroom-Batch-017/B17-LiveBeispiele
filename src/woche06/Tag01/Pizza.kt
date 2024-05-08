@@ -1,4 +1,4 @@
-package woche06
+package woche06.Tag01
 
 class Pizza(var name: String, var size: Int, var price: Double, var ingredients: List<Ingredient>) {
 

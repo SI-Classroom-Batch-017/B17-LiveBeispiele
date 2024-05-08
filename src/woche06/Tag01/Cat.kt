@@ -1,4 +1,4 @@
-package woche06
+package woche06.Tag01
 
 // eine Klasse kann auch andere Klassen als Attribut / Eigenschaft / Variable haben: hier zB owner ist vom Datentyp Person
 class Cat(var name: String, var breed: String, var owner: Person?) {
@@ -11,9 +11,9 @@ class Cat(var name: String, var breed: String, var owner: Person?) {
 }
 
 fun main() {
-    var ingredientsList: List<Ingredient> = listOf(Ingredient("Tomate", 0.5),Ingredient("Zwiebel",0.6))
+    var ingredientsList: List<Ingredient> = listOf(Ingredient("Tomate", 0.5), Ingredient("Zwiebel",0.6))
     var pizza1: Pizza = Pizza("Monzarella",30,5.99, ingredientsList)
-    var cat2: Cat = Cat("Alfie","BKH",Person("Mario","Mustermann",30,pizza1))
+    var cat2: Cat = Cat("Alfie","BKH", Person("Mario","Mustermann",30,pizza1))
     var person1: Person = Person("Harry", "Potter", 11,pizza1)
 
     var cat1: Cat = Cat("Betty","Perser",person1)
