@@ -1,4 +1,8 @@
+package woche04.Tag05Wiederholung.musterloesungen
+
+
 // Task 8
+
 fun main() {
     println("Willkommen!")
     println("Unser Sortiment (alphabetisch sortiert): ")

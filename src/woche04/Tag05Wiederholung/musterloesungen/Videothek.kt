@@ -1,3 +1,6 @@
+package woche04.Tag05Wiederholung.musterloesungen
+
+
 // Die FilmListe hat alle unsere Filme
 val filmListe = mutableListOf<String>(
     "The Dark Knight",

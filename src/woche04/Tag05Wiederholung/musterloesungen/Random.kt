@@ -1,3 +1,6 @@
+package woche04.Tag05Wiederholung.musterloesungen
+
+
 // Diese Funktion erstellt eine zufällige Bewertung
 fun randomRating(): Int {
     return (1..5).random()

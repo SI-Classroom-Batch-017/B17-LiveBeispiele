@@ -11,9 +11,9 @@ fun calculateAge(){
 }
 
 
-// Funktion aufrufen: in der main() in dieser Datei, in der main() in Tag11-Funktionen
+// Funktion aufrufen: in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main() in dieser Datei, in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main() in Tag11-Funktionen
 fun main() {
-    // main soll immer moeglichst schlank sein, ist das Steuerzentrum/Gehirn des Programms
+    // woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main soll immer moeglichst schlank sein, ist das Steuerzentrum/Gehirn des Programms
     choices()
 }
 

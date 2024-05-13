@@ -5,7 +5,7 @@ fun main() {
 //
 //    val rechnung: Double = ergebnis + multWithReturn() + 10.0
 //
-//    println("Ergebnis aus multWithReturn(), von der main aus abgerufen:")
+//    println("Ergebnis aus multWithReturn(), von der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main aus abgerufen:")
 //    println(ergebnis)
 //
 //

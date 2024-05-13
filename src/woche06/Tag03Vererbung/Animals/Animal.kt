@@ -54,9 +54,14 @@ fun main() {
     pinguin.canSwim = true
 
     // alle Klassen, die von Animal erben, koennen in eine Liste an Animals geschrieben werden
-    var animalList: List<Animal> = listOf(tiger,ara,vogel, Animal("Katze",false,false),
+    var animalList: List<Animal> = listOf(
+        tiger,
+        ara,
+        vogel,
+        Animal("Katze",false,false),
         Vogel("Spatzi"),
-        Papagei("Sabine",true),pinguin)
+        Papagei("Sabine",true),
+        pinguin)
     println(animalList)
 
 
@@ -65,6 +70,8 @@ fun main() {
     var vogelList: List<Animal> = animalList.filter { it is Vogel }
     println("---- Vogel Liste ----")
     println(vogelList)
+    var x: MutableList<Vogel> = vogelList as MutableList<Vogel>
+    
 
     ara.talk()
 

@@ -20,7 +20,7 @@ fun calculateAverageAge(namesAndAges: List<Pair<String, Int>>): Double {
     return totalAge.toDouble() / namesAndAges.size
 }
 
-fun main() {
+fun woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main() {
     val namesAndAges = listOf(
         Pair("Alice", 30),
         Pair("Bob", 25),

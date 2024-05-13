@@ -1,3 +1,6 @@
+package woche04.Tag05Wiederholung.musterloesungen
+
+
 // Task 3a
 fun getPrice(movie: String): Double {
     return filmToPrice[movie] ?: 0.0
