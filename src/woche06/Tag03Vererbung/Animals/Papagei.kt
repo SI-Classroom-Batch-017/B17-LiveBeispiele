@@ -15,4 +15,14 @@ class Papagei(name: String, var canTalk: Boolean): Vogel(name){
 //        println("Papageienflug!!!!")
 //    }
 
+    fun talk(){
+        if (canTalk){
+            println("Der Papagei $name erzählt uns was...")
+        } else println("$name bleibt stumm.")
+    }
+
+    override fun toString(): String {
+        return "Papagei: $name"
+    }
+
 }

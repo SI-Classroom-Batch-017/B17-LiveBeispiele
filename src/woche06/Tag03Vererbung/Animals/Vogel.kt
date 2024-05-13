@@ -17,14 +17,8 @@ open class Vogel(name: String, canFly: Boolean = true): Animal(name,canFly,false
         println("Der VOGEL $name FLIEGT!")
     }
 
-//    override fun toString(): String {
-//        return """
-//            --Vogel toString()--
-//            Name: $name
-//            Kann Fliegen: $canFly
-//            Kann Schwimmen: $canSwim
-//            Adresse: ${super.toString()}
-//        """.trimIndent()
-//    }
+    override fun toString(): String {
+        return "Vogel: $name"
+    }
 
 }

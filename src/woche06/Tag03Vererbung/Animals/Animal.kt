@@ -50,15 +50,24 @@ fun main() {
     tiger.tierMethode()
     vogel.tierMethode()
 
+    var pinguin: Vogel = Vogel("Pinguin",false)
+    pinguin.canSwim = true
+
     // alle Klassen, die von Animal erben, koennen in eine Liste an Animals geschrieben werden
-    var animalList: List<Animal> = listOf(tiger,ara,vogel)
+    var animalList: List<Animal> = listOf(tiger,ara,vogel, Animal("Katze",false,false),
+        Vogel("Spatzi"),
+        Papagei("Sabine",true),pinguin)
     println(animalList)
 
 
     // is Schlüsselwort: gibt true zurueck, wenn it der Klasse Vogel oder ihren Kindern angehört
     // Vogel und Papagei erben von Animal
     var vogelList: List<Animal> = animalList.filter { it is Vogel }
+    println("---- Vogel Liste ----")
     println(vogelList)
+
+    ara.talk()
+
 
 
 }
