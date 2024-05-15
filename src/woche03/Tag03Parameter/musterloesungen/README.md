@@ -23,7 +23,7 @@ Aufgabe:
 - Schreibe eine Funktion `yourName()`, die einen Namen als Parameter übergeben bekommt.
 - Überprüfe, ob der Name nicht leer ist. Falls der Name leer ist, gib aus: "Du hast keinen Namen eingegeben."
 - Ansonsten gib aus: Dein Name ist:`(Name)`.
-- Rufe die Funktion in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main-Funktion mit einem Beispielnamen auf.
+- Rufe die Funktion in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main-Funktion mit einem Beispielnamen auf.
 
 </details>
 
@@ -38,7 +38,7 @@ Aufgabe:
 - Überprüfe, ob die übergebene Zahl größer als 0 ist.
 - Falls ja, verrechne die Zahl mit einer vorgegebenen Variable deiner Wahl und gib das Ergebnis aus.
 - Falls die Zahl nicht größer als 0 ist, gib aus: "Bitte gib eine positive Zahl ein."
-- Rufe die Funktion in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main-Funktion mit einer negativen Zahl auf.
+- Rufe die Funktion in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main-Funktion mit einer negativen Zahl auf.
 
 </details>
 
@@ -60,7 +60,7 @@ fun subtract(firstNumber: Int) {
     println(secondNumber - firstNumber)
 }
 
-fun woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main() {
+fun woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main() {
     subtract(5)
 }
 ```
@@ -83,7 +83,7 @@ fun hello(name: String) {
     println("Hallo! Wie geht es dir $name?")
 }
 
-fun woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main() {
+fun woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main() {
     hello("Peter")
 }
 ```
@@ -106,7 +106,7 @@ Schreibe deine Antwort in die Datei `5_Aufgabe`.
 fun multiplikation(firstNumber: Int, secondNumber: Int) {
     println(firstNumber * secondNumber)
 }
-fun woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main() {
+fun woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main() {
     multiplikation(5, 23)
 }
 ```
@@ -142,7 +142,7 @@ fun printMovie(movieTitle: String?) {
     }
 }
 
-fun woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main() {
+fun woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main() {
     printMovie("e")
 }
 
@@ -174,7 +174,7 @@ Hier sollst du nun deine eigene Funktion selbst entwerfen!
 - Die Funktion soll einen Double als Parameter bekommen und am Ende eine Ausgabe ausdrucken, die die Größe einer Person,
 - wie im Folgenden Beispielsatz, ausgibt: "Du bist 1.83 Meter groß!"
 - Dabei soll der übergebene Parameter die Größe der Person sein, die im Beispielsatz ausgegeben wird.
-- Vergiss nicht, die Funktion dann auch in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main Funktion aufzurufen!
+- Vergiss nicht, die Funktion dann auch in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main Funktion aufzurufen!
 
 </details>
 
@@ -291,7 +291,7 @@ Flächeninhalt: A = π * r<sup>2</sup>
 Umfang: U = 2 * r * π
 
 
-Rufe die Funktionen in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main()-Funktion auf um deine Ergebnisse zu überprüfen.
+Rufe die Funktionen in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main()-Funktion auf um deine Ergebnisse zu überprüfen.
 
 ### **Hinweis: Alle Funktionen müssen mit beliebigen Größen aufrufbar sein.**
 

@@ -12,7 +12,7 @@ In dieser Aufgabe sollst du einige Zahlen über die Konsole einlesen und im Ansc
 Schreibe eine Funktion namens getPartWithIndex() die eine Liste an Strings namens list' und 2 Integers namensstartundend` übergeben bekommt und eine Liste an Strings zurück gibt.
 Die zwei Integers sollen als Indizes gewertet und für Anfang und Ende einer Teilliste der Liste stehen.
 Tipp:
-Die Teilliste soll zurück gegeben und in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main() ausgedruckt werden.
+Die Teilliste soll zurück gegeben und in der woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main() ausgedruckt werden.
  */
 
 

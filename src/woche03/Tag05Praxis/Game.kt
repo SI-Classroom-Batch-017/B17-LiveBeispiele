@@ -20,7 +20,7 @@ fun main() {
     //  Der Spieler sucht sich zu Begin des Spiels für die
     //  zwei Akteure zwei Namen aus. Dann kämpfen die Akteure
     //  jeweils 3 Runden gegeneinander, wobei beide Akteure
-    //  sich abwechselnd angreifen und dann heilen.
+    //  sich abwechselnd angreifen und dann woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.heilen.
     //  Am Ende jeder Runde kann der Spieler für jeden Akteur
     //  eine Spezialattacke auswählen. Der Akteur, der am Ende
     //  des Spiels die meisten Lebenspunkte hat, gewinnt.
@@ -72,7 +72,7 @@ fun runde() {
     // 1. Spieler1 und Spieler2 greifen sich nacheinander an
     attackPhase()
 
-    // beide Spieler heilen sich:
+    // beide Spieler woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.heilen sich:
     healPhase()
 
     // Spieler1 und Spieler2 greifen sich nacheinander mit Spezialattacke an

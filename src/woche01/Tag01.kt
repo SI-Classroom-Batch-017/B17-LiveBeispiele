@@ -2,7 +2,7 @@
 package woche01
 
 /*
- die woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main() Funktion ist der Einstiegspunkt eines Kotlin-Programms.
+ die woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main() Funktion ist der Einstiegspunkt eines Kotlin-Programms.
  Wird aufgerufen, wenn ein Programm gestartet wird
  */
 

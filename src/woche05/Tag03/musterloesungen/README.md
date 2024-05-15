@@ -83,10 +83,10 @@ Erstelle eine Funktion, welche als Parameter eine Liste und eine Zahl übergeben
 Die Funktion soll mittels *While-Schleife* die Werte in der Liste mit der gegebenen Zahl multiplizieren.
 Am Ende soll die Funktion die multiplizierte Liste wieder zurückgegeben.
 
-> In der `woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main()` ist schon eine Liste namens `numbers` gegeben, diese kannst du verwenden, um deine Funktion zu testen.
+> In der `woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main()` ist schon eine Liste namens `numbers` gegeben, diese kannst du verwenden, um deine Funktion zu testen.
 
 Sollte man die Liste `numbers` und `3` in die Funktion geben, so sollte auf der Konsole folgendes stehen.
-(Der print Befehl sollte in der `woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main()` stehen)
+(Der print Befehl sollte in der `woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main()` stehen)
 
 ```
 [75.0, 99.9, 150.0, 300.0]
@@ -192,7 +192,7 @@ soll die Funktion die Jahreszeit "Frühling" zurückgeben.
 
 **B)**
 
-Schreibe in der `woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.main()` eine Schleife,
+Schreibe in der `woche06.Tag03Vererbung.musterloesungen.Aufgabe5.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe6.src.woche06.Tag03Vererbung.musterloesungen.Aufgabe7.src.woche04.Tag05Wiederholung.musterloesungen.woche03.Tag04Dokumentation.musterloesungen.Aufgabe3.src.main()` eine Schleife,
 die alle Monate mit ihrer Jahreszeit in der Konsole ausgibt.
 
 In der Konsole sollte dann folgendes ausgegeben werden:
