@@ -1,3 +1,9 @@
+package woche06.Tag03Vererbung.musterloesungen.Aufgabe8.src
+
+import Course
+import Dozent
+import Student
+
 fun main() {
     var students = mutableListOf(
         Student("Markus", 25),
