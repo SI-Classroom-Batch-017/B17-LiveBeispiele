@@ -1,14 +1,13 @@
-package woche07.Tag02KlasseMitAttacke
+import vorlesungen.Woche07Wiederholung.Beutel
+import vorlesungen.Woche07Wiederholung.roundDouble
+
 
 // Primärer Konstruktor: direkt beim Erstellen der Klasse
-class Pokemon(var name: String, var type: String, var level: Int = 1) {
-
+class Pokemon(var name: String, var type: String, var level: Int = 1, var isDead: Boolean = false) {
 
     var hp: Double // Health Points = Lebenspunkte
-    var ursprungsHP: Double
     var ep: Double // Experience Points
     var ap: Double // Attack Points
-    var isDead: Boolean = false
     // var istVerflucht: Boolean = false
 
     // init Block: da der Primäre Konstruktor keinen eigenen Körper hat (der Körper ist ja einfach die gesamte Klasse), brauchen wir den init Block. Der wird, wie die Körper der sekundären Konstruktoren, immer beim Initialisieren = Erstellen eines konkreten Pokemons aufgerufen
@@ -16,7 +15,6 @@ class Pokemon(var name: String, var type: String, var level: Int = 1) {
         this.hp = 9.0
         this.ep = 0.0
         this.ap = level * 3.0
-        this.ursprungsHP = hp
 
 //        println("----Primärer Konstruktor Call im init-Block----")
 //        println("Pokemon $name wurde auf Level $level initialisiert.")
@@ -45,8 +43,8 @@ class Pokemon(var name: String, var type: String, var level: Int = 1) {
         println("$name verwendet Tackle mit einer Angriffskraft von $ap AP!")
         println("${gegner.name} hat vorher ${gegner.hp} HP...")
         println("$name's Angriff triggt ${gegner.name}!")
-        gegner.hp -= this.ap // x.xxxxxx --> runden 33.39475657483736
-        gegner.hp = roundDouble(gegner.hp) // 33.39
+        gegner.hp -= this.ap // x.xxxxxx
+        gegner.hp = roundDouble(gegner.hp) // x.xx
         println("${gegner.name} verliert $ap HP und hat noch ${gegner.hp} HP!")
         // Abfangen, dass Gegner direkt stirbt:
         if (gegner.hp <= 0){
@@ -56,7 +54,12 @@ class Pokemon(var name: String, var type: String, var level: Int = 1) {
         }
     }
 
+    // Fahrplan: verfluchen
+    // opfer.istVerflucht = true
 
+    // Fahrplan: der Fluch wirkt
+    // checken: bin ich verflucht?
+    // wenn ja -> 10% der HP abziehen (eigene Funktion dazu?)
 
 
     override fun toString(): String{
@@ -66,16 +69,36 @@ class Pokemon(var name: String, var type: String, var level: Int = 1) {
         """.trimIndent()
     }
 
-    //TODO useBeutel Pseudocode Fahrplan
-    fun useBeutel(beutel: Beutel){
+    fun useBeutel(beutel: Beutel) : Int {
+        println("Du willst also den Beutel nutzen...")
+        println("Heiltränke: ${beutel.anzahlHeiltränke}")
+        println("Booster: ${beutel.anzahlBooster}")
+        println("[1] => Heiltrank, [2] => Booster, [3] => Beutel verlassen")
+        try {
+            val input = readln().toInt()
+            when (input) {
+                1 -> {
+                    beutel.heiltrankNutzen(this)
+                    return 1
+                }
 
-        // inhalt des beutels drucken, naemlich wie viel von jedem trank noch da ist
-        println("Wir haben noch ${beutel.anzahlHeiltraenke} Heiltränke")
-        // user gibt ueber readln seine auswahl ein
-        // je nach auswahl:
-            beutel.useHeiltrank(this) // hier muss der held uebergeben, der den beutel nutzt
-           // beutel.useBooster(this)
+                2 -> {
+                    beutel.boosterNutzen(this)
+                    return 2
+                }
+                3 -> {
+                    return 3
+                }
+                else -> {
+                    println("Keine gültige Zahl eingegeben! Probier's nochmal...")
+                    useBeutel(beutel)
+                }
+            }
+        } catch (e: Exception){
+            println("Du musst eine gültige Zahl, keinen Buchstaben eingeben!")
+            useBeutel(beutel)
+        }
 
+    return 3
     }
-
 }

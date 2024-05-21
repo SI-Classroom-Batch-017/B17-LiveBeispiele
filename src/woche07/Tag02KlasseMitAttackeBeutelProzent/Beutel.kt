@@ -1,4 +1,6 @@
-package woche07.Tag02KlasseMitAttacke
+package woche07.Tag02KlasseMitAttackeBeutelProzent
+
+import woche07.Tag02KlasseMitAttackeBeutelProzent.Helden.Pokemon
 
 class Beutel {
 
