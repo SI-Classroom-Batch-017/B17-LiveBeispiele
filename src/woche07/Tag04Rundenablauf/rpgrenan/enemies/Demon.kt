@@ -9,7 +9,6 @@ class Demon(name: String, private val initialHp: Double) : Enemy(name, initialHp
     private val attack2 = 30
     private val attack3 = 40
     private val attack4 = 50
-    private val attack5 = 60
 
     fun hpIsMoreThanHalf(): Boolean = hp / initialHp >= 0.5
 
@@ -37,33 +36,30 @@ class Demon(name: String, private val initialHp: Double) : Enemy(name, initialHp
         )
     }
 
-    private fun demonAttack4(held: Hero) {
-        held.hp -= attack4
-        println(
-            "               >>> ${this.name} greift mit Fire Stone ${held.name} an! <<<\n" +
-                    "${held.name} hat $attack1 Lebenspunkte schaden erlitten und hat noch ${held.hp} Lebenspunkte übrig.\n"
-        )
-    }
-
-    private fun demonAttack5(helden: List<Hero>) {
+    private fun demonAttack4(helden: List<Hero>) {
         helden.forEach {
-            it.hp -= attack5
+            it.hp -= attack4
+
             println(
                 "               >>> ${this.name} greift mit Great Fire Ball ${it.name} an! <<<\n" +
-                        "${it.name} hat $attack5 Lebenspunkte schaden erlitten und hat noch ${it.hp} Lebenspunkte übrig.\n"
+                        "${it.name} hat $attack4 Lebenspunkte schaden erlitten und hat noch ${it.hp} Lebenspunkte übrig.\n"
             )
         }
 
     }
 
-    private fun demonAttack6(held: Hero) {
-
+    private fun demonAttack5(held: Hero) {
         //TODO
-        //Verflucht logik
+        //Fluch
+    }
+
+    fun summonFireElemental(): FireElemental {
+        val fireElemental = FireElemental("FireElemental", 100.0)
+        return fireElemental
     }
 
     fun demonAttackenRandom(helden: List<Hero>) {
-        val idx = Random.nextInt(6)
+        val idx = Random.nextInt(5)
         println("IDX: $idx")
         when (idx) {
 
@@ -73,11 +69,10 @@ class Demon(name: String, private val initialHp: Double) : Enemy(name, initialHp
 
             2 -> demonAttack3(helden.random())
 
-            3 -> demonAttack4(helden.random())
+            3 -> demonAttack4(helden)
 
-            4 -> demonAttack5(helden)
+            4 -> demonAttack5(helden.random())
 
-            //5 -> demonAttack6(helden.random())
         }
     }
 }
