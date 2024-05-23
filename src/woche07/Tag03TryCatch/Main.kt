@@ -1,6 +1,5 @@
-package woche07.Tag04TryCatch
+package woche07.Tag03TryCatch
 
-import woche07.Tag02KlasseMitAttackeBeutelProzent.Held
 import woche07.Tag02KlasseMitAttackeBeutelProzent.Helden.Pokemon
 
 fun main() {

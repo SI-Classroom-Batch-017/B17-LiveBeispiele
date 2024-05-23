@@ -103,7 +103,7 @@ fun main() {
     println(music)
 
     // existierenden Wert überschreiben
-    music["Taylor Swift"] = mutableListOf("Anti-Hero","Lavender Haze", "Clean")
+    music["Taylor Swift"] = mutableListOf("Anti-woche07.Tag04Rundenablauf.rpgrenan.heroes.Hero","Lavender Haze", "Clean")
     println(music)
 
     // Element bei Taylor Swift and Ende hinzufuegen
