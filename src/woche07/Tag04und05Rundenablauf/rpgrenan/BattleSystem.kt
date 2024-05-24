@@ -21,7 +21,6 @@ class BattleSystem() {
     private val bag = Bag()
 
 
-
     fun playRound() {
         var rundeAnzahl = 1
 
@@ -34,6 +33,18 @@ class BattleSystem() {
                 println("Demon hat ${demon.hp} Lebenspunkte übrig")
                 demon.demonAttackenRandom(herosList)
                 removeDeadHero()
+                for (held in herosList) {
+                    if (held.isPoison) {
+                        println("${held.name} ist vergiftet und kriegt daher 10 Schaden, aktuelle Lebenspunkte ${held.hp}")
+                        held.hp -= 10
+                        if (held.hp < held.initialHP * 0.2) {
+                            println("Da ${held.name} unter 20% Lebenspunkte ist, darf nicht mehr vergiftet werden.")
+                            held.isPoison = false
+                        }
+                    }
+                }
+
+
             } else if (!demon.hpIsMoreThanHalf()) {
                 if (fireElemental == null) {
                     fireElemental = demon.summonFireElemental()
@@ -43,7 +54,7 @@ class BattleSystem() {
                     enemiesList.add(fireElemental!!)
                 }
 
-                herosList.forEach{ it.getBattleMenu(enemiesList.random(), bag) }
+                herosList.forEach { it.getBattleMenu(enemiesList.random(), bag) }
                 removeDeadEnemy()
 
                 if (demon.hp > 0.0) {
@@ -66,7 +77,7 @@ class BattleSystem() {
     }
 
 
-    fun removeDeadHero() {
+    private fun removeDeadHero() {
         val liveHero = herosList.filter {
             if (it.hp > 0.0) {
                 true
@@ -78,7 +89,7 @@ class BattleSystem() {
         herosList = liveHero
     }
 
-    fun removeDeadEnemy() {
+    private fun removeDeadEnemy() {
         val deadEnemies = enemiesList.filter { it.hp <= 0.0 }
         deadEnemies.forEach {
             enemiesList.remove(it)
@@ -87,7 +98,7 @@ class BattleSystem() {
     }
 
 
-    fun endGameCheck(): Boolean {
+    private fun endGameCheck(): Boolean {
         if (herosList.isEmpty() || enemiesList.isEmpty()) {
             return true
         }

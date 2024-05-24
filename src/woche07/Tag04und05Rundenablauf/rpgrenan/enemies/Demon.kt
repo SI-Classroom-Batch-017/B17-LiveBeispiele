@@ -49,8 +49,16 @@ class Demon(name: String, private val initialHp: Double) : Enemy(name, initialHp
     }
 
     private fun demonAttack5(held: Hero) {
-        //TODO
-        //Fluch
+        if (!held.isPoison && held.hp > (held.initialHP * 0.20)) {
+            held.hp -= (held.hp * 0.10)
+            held.isPoison = true
+            println(
+                "               >>> ${this.name} greift mit Poison ${held.name} an! <<<\n" +
+                        "${held.name} hat 10% weniger Lebenspunkte  und hat noch ${held.hp} Lebenspunkte übrig.\n"
+            )
+        } else {
+            println("Lebenspunkte weniger als 20%, darf nicht vergiftet werden")
+        }
     }
 
     fun summonFireElemental(): FireElemental {
