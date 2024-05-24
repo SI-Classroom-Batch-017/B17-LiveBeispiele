@@ -11,28 +11,28 @@ class Knight(name: String, hp: Double) : Hero(name, hp) {
     private val attack4 = 50
 
     private fun knightAttack1(enemy: Enemy){
-        enemy.hp -= attack1
+        enemy.hp -= attack1 * booster
         println(
             "               >>> ${this.name} greift mit Hammer ${enemy.name} an! <<<\n" +
                     "${enemy.name} hat ${attack1 * booster} Lebenspunkte schaden erlitten und hat noch ${enemy.hp} Lebenspunkte übrig.\n"
         )
     }
     private fun knightAttack2(enemy: Enemy){
-        enemy.hp -= attack2
+        enemy.hp -= attack2 * booster
         println(
             "               >>> ${this.name} greift mit Axe ${enemy.name} an! <<<\n" +
                     "${enemy.name} hat ${attack2 * booster} Lebenspunkte schaden erlitten und hat noch ${enemy.hp} Lebenspunkte übrig.\n"
         )
     }
     private fun knightAttack3(enemy: Enemy){
-        enemy.hp -= attack3
+        enemy.hp -= attack3 * booster
         println(
             "               >>> ${this.name} greift mit Schwert ${enemy.name} an! <<<\n" +
                     "${enemy.name} hat ${attack3 * booster} Lebenspunkte schaden erlitten und hat noch ${enemy.hp} Lebenspunkte übrig.\n"
         )
     }
     private fun knightAttack4(enemy: Enemy){
-        enemy.hp -= attack4
+        enemy.hp -= attack4 * booster
         println(
             "               >>> ${this.name} greift mit Exori ${enemy.name} an! <<<\n" +
                     "${enemy.name} hat ${attack4 * booster} Lebenspunkte schaden erlitten und hat noch ${enemy.hp} Lebenspunkte übrig.\n"
