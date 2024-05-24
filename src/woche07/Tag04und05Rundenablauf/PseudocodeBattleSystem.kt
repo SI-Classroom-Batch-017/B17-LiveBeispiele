@@ -1,4 +1,4 @@
-package woche07.Tag04Rundenablauf
+package woche07.Tag04und05Rundenablauf
 
 class PseudocodeBattleSystem {
 

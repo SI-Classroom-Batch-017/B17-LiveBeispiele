@@ -1,6 +1,6 @@
-package woche07.Tag04Rundenablauf.rpgrenan.enemies
+package woche07.Tag04und05Rundenablauf.rpgrenan.enemies
 
-import woche07.Tag04Rundenablauf.rpgrenan.heroes.Hero
+import woche07.Tag04und05Rundenablauf.rpgrenan.heroes.Hero
 import kotlin.random.Random
 
 class Demon(name: String, private val initialHp: Double) : Enemy(name, initialHp) {
